@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>contact us page</h1>
-</body>
-</html>
+@extends('profile.about')
+@section('content')
+    <p>Hubungi kami</p>
+    <p>Alamat : jalan mangga</p>
+    <p>Telpn  : (0821)346546</p>
+    <p>Email  : emailme@email.com</p>
+    
+
+<button type="button" class="btn btn-primary">Learn More</button>
+@endsection

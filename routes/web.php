@@ -13,15 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'ContohController@welcome');
 
-Route::get('/contactus', function () {
-    return view('contactus');
-});
+Route::get('/contact', 'ContohController@contact');
 
-Route::get('/about', function () {
-    return view('profile.about');
-});
+Route::get('/about', 'ContohController@about');
+
+Route::get('/obat', 'ContohController@obat');
+
+Route::get('/vitamin', 'ContohController@vitamin');
 
